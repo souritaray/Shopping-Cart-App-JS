@@ -36,6 +36,7 @@
   .fa-cart-shopping{
     font-size: 30px;
     margin-top: 30px; 
+    color:black;
   }
 
   .heading{
@@ -44,8 +45,13 @@
     margin-bottom: 40px;
   }
 .productCardContainer{
-    display: flex;
-    gap:10%;
+  
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows:  400px 400px;
+    align-content: center;
+    justify-content: center;
+    gap:5%;
 }
 .productDesc{
     text-align: center;
@@ -63,4 +69,31 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .cartArr{
+    display: flex;
+    gap:10px;
+    
+  }
+  .buttons button{
+    width:100px;
+    background-color: #F7AAB7;
+    height:30px;
+    border-radius: 20px;
+    border:none;
+  }
+  .buttons button:hover{
+    background-color: #fff;
+    font-weight: bolder;
+    box-shadow: 3px 3px 5px 3px #F7AAB7;
+  }
+
+  /* Cart */
+
+  .cart{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    width:70vw;
   }
