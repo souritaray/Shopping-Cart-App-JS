@@ -97,3 +97,39 @@
     align-items: center;
     width:70vw;
   }
+  .cartRow{
+    display: flex;
+    gap:40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+    align-items: center;
+  }
+  .cartItemImg{
+    width:100px;
+    height:100px;
+    object-fit: contain;
+  }
+  .cartItemDesc{
+    width:200px;
+  }
+.cartqty{
+  width:40px;
+  height:20px;
+  
+}
+.removebutton{
+  width:80px;
+  height: 30px;
+  border-radius: 10px;
+  border:none;
+  background-color: rgb(240, 100, 100);
+  font-weight: bolder;
+  color: aliceblue;
+}
+.removebutton:hover{
+  background-color: #fff;
+  color: rgb(240, 100, 100);
+  font-weight: bolder;
+  border:1px solid rgb(240, 100, 100);
+}
